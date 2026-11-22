@@ -1,0 +1,21 @@
+{
+  "drift_min_cos_layer": 13,
+  "drift_min_cos": 0.6911661028862,
+  "drift_final_layer_cos": 0.8248286843299866,
+  "probe_best_base": {
+    "layer": 15,
+    "macro_f1": 0.8518937440884522
+  },
+  "probe_best_ft": {
+    "layer": 19,
+    "macro_f1": 0.8915347014889491
+  },
+  "lora_largest_total_layer": 1,
+  "lora_largest_module_mean": "gate_proj",
+  "first_layer_probe_base_ge_0.6": 2,
+  "first_layer_probe_ft_ge_0.6": 2,
+  "first_layer_probe_base_ge_0.7": 8,
+  "first_layer_probe_ft_ge_0.7": 5,
+  "first_layer_probe_base_ge_0.8": 13,
+  "first_layer_probe_ft_ge_0.8": 9
+}

@@ -3,3 +3,16 @@ __pycache__/
 *.pyc
 .ipynb_checkpoints/
 checkpoints/
+checkpoints_*/
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.npy
+*.npz
+adapter_*/
+.venv/
+venv/
+.DS_Store
+Thumbs.db
+wandb/
